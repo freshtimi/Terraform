@@ -50,7 +50,7 @@ on:
     - master
     paths:
     - 'deploy-hub.txt'
-  push_request:
+  pull_request:
 
 jobs:
   terraform:
